@@ -4,7 +4,7 @@ import './App.css';
   return (
     <>
     <h1 className='active'>Turah</h1>
-    <p>Lanre Mentee</p>
+    <p>Lanre Mentee opolopoopolopo</p>
       </>
 
   );
