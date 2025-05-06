@@ -42,36 +42,64 @@
 //   );
 // }
 
+// import React from 'react'
+// import { useState } from 'react';
+// import './App.css'
+
+// export default function App() {
+//     const [count, setCount] = useState (0);
+
+//     function handleAdd(){
+//         setCount (count => count + 1);
+//         setCount (count => count + 1);
+//         setCount (count => count + 1);
+//     }
+
+//     function handleSub(){
+//       setCount (count - 1);
+//         }
+
+//         function hadleReset(){
+//           setCount (0);
+//         }
+//   return (
+
+//     <div className='App'>
+//         <div className='box'>
+//         <p>{count}</p>
+//             <button onClick={handleAdd}className='add'>ADD</button>
+//             <button onClick={handleSub}className='sub'>SUB</button>
+//             <button onClick={hadleReset}className='reset'>RESET</button>
+//         </div>
+//     </div>
+//   );
+// }
+
+
 import React from 'react'
 import { useState } from 'react';
 import './App.css'
 
 export default function App() {
-    const [count, setCount] = useState (0);
+  const[tasks, setTasks] = useState([
+    {id:2025, name: "Record React Lectures", completed: true},
+    {id:2026, name: "Edit React Lectures", completed: true},
+    {id:2027, name: "Watch React Lectures", completed: true},
+    {id:2028, name: "Turah Rae React", completed: true},
+    {id:2029, name: "Olanrewaju React", completed: true},
+  ]);
 
-    function handleAdd(){
-        setCount (count => count + 1);
-        setCount (count => count + 1);
-        setCount (count => count + 1);
-    }
-
-    function handleSub(){
-      setCount (count - 1);
-        }
-
-        function hadleReset(){
-          setCount (0);
-        }
-  return (
-
-    <div className='App'>
-        <div className='box'>
-        <p>{count}</p>
-            <button onClick={handleAdd}className='add'>ADD</button>
-            <button onClick={handleSub}className='sub'>SUB</button>
-            <button onClick={hadleReset}className='reset'>RESET</button>
-        </div>
-    </div>
-  );
-}
-
+return(
+  <div className='App'>
+    <h1>Task List</h1>
+    <ul>
+      { tasks.map((task) => (
+        <li key={task.id}>
+          <span>{task.id} - {task.name} </span>
+          <button className='delete'>DELETE</button>
+          </li>
+      )) }
+    </ul>
+  </div>
+)
+};
