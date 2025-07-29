@@ -1,7 +1,6 @@
 # 🌟 Sample Project
 
-This is a simple web project created to practice the fundamentals of Git and GitHub. 
-from initializing repositories to pushing changes like a pro.
+This is a simple web project created to practice the fundamentals of Git and GitHub - from initializing repositories to pushing changes like a pro.
 
 ---
 
@@ -35,7 +34,7 @@ sample-project/
 ## 💡 Getting Started
 
 1. Clone the repository:  
-   `git clone https://github.com/your-username/sample-project.git`
+   `git clone https://github.com/TurahRae/sample-project.git`
 
 2. Open the project in your code editor.
 
