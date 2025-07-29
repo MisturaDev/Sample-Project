@@ -34,7 +34,7 @@ sample-project/
 ## 💡 Getting Started
 
 1. Clone the repository:  
-   `git clone https://github.com/TurahRae/sample-project.git`
+   `git clone https://github.com/TurahRae/Sample-Project.git`
 
 2. Open the project in your code editor.
 
