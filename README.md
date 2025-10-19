@@ -1,10 +1,10 @@
 # 🌟 Sample Project
 
-This is a simple web project created to practice the fundamentals of Git and GitHub - from initializing repositories to pushing changes like a pro.
+This is a simple web project created to practice the fundamentals of **Git** and **GitHub** — from initializing repositories to managing changes confidently.
 
 ---
 
-## 🚀 What I'm Learning
+## 🚀 What I’ve Learned
 
 - Creating repositories on GitHub  
 - Connecting local projects using Git  
@@ -22,12 +22,14 @@ This is a simple web project created to practice the fundamentals of Git and Git
 ---
 
 ## 📁 Project Structure
+
+```
 sample-project/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 
 ---
 
@@ -36,27 +38,23 @@ sample-project/
 1. Clone the repository:  
    `git clone https://github.com/TurahRae/Sample-Project.git`
 
-2. Open the project in your code editor.
-
+2. Open the project in your code editor.  
 3. Launch `index.html` in your browser to view the result.
 
 ---
 
 ## 📌 Status
 
-🚧 **In Progress** – Learning Git basics and improving the UI.
+🚧 **In Progress** – Practicing Git and refining the UI.
 
 ---
 
 ## 🙌 Acknowledgements
 
-Thanks to online tutorials, documentation and helpful communities that made this learning journey smoother.
+Thanks to online tutorials, documentation, and helpful communities that made this learning journey smoother.
 
 ---
 
 ## 🧠 Author
 
-**Mistura Ishola** – Aspiring Front-End Developer  
-
----
-
+**Mistura Ishola** – Front-End Developer
