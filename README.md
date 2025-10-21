@@ -43,19 +43,13 @@ sample-project/
 
 ---
 
-## 📌 Status
-
-🚧 **In Progress** – Practicing Git and refining the UI.
-
----
-
 ## 🙌 Acknowledgements
 
 Thanks to online tutorials, documentation, and helpful communities that made this learning journey smoother.
 
 ---
 
-## 🧠 Author
+## 🧠 Developer
 
 **Mistura Ishola** 
 
