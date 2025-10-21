@@ -36,7 +36,7 @@ sample-project/
 ## 💡 Getting Started
 
 1. Clone the repository:  
-   `git clone https://github.com/TurahRae/Sample-Project.git`
+   `git clone https://github.com/MisturaDev/Sample-Project.git`
 
 2. Open the project in your code editor.  
 3. Launch `index.html` in your browser to view the result.
@@ -57,4 +57,5 @@ Thanks to online tutorials, documentation, and helpful communities that made thi
 
 ## 🧠 Author
 
-**Mistura Ishola** – Front-End Developer
+**Mistura Ishola** 
+**Front-End Developer**
